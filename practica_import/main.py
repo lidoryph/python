@@ -8,14 +8,14 @@ if edad >= 18:
         peso = float(input("Introduzca su peso en kg: "))
         altura = float(input("Introduzca su altura en metros: "))
         
-        IMC = calcula_imc(peso, altura)
-        print("Tu índice de masa corporal (IMC) es de ", IMC)
+        imc = calcula_imc(peso, altura)
+        print("Tu índice de masa corporal (IMC) es de ", imc)
         
-        if IMC < 19:
+        if imc < 19:
                 print("Bajo peso.")
-        elif IMC < 26:
+        elif imc < 26:
                 print("Peso normal.")
-        elif IMC < 30:
+        elif imc < 30:
                 print("Sobrepeso.")
         else:
                 print("Obesidad.")
