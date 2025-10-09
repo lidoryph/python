@@ -1,4 +1,4 @@
-from pruebas4 import calcula_imc
+from calcula_imc import calcula_imc
 
 edad = int(input("Cuantos años tienes?: "))
 
